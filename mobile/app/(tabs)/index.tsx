@@ -11,10 +11,11 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/')}
+          source={require('@/assets/images/nubankyasmin.webp')}
           style={styles.reactLogo}
         />
       }>
+        
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Olá, Yasmin</ThemedText>
         <HelloWave />
@@ -22,7 +23,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Saldo em conta</ThemedText>
         <ThemedText>
-         <ThemedText type="defaultSemiBold">R$0,89</ThemedText>
+         <ThemedText type="defaultSemiBold">R$234,00</ThemedText>
           
         </ThemedText>
       </ThemedView>
@@ -57,10 +58,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 300,
+    width: 200,
     bottom: 0,
-    left: 0,
+    left: 45,
     position: 'absolute',
   },
 });
